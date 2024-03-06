@@ -1,0 +1,5 @@
+	Aplicativo de Somas
+
+Uma Aplicação Web que terá as simples funções matématicas como exemplo Soma, Subtração, Multiplicação e Divisão. 
+
+Logo após o usuário inserir os valores e escolher a operação matematica, o sistema irá fazer a conta solicitada e exibir o valor da tela.

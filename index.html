@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="teste">
+    <div class="inputValores">
+        <p>Digite o Primeiro Valor</p>
+        <input required="" type="number" id="valor1">
+        <p>Digite o Segundo Valor</p>
+        <input required="" type="number" id="valor2">
+
+        <select name="somas" id="conta">
+            <option value="soma" id="soma">+</option>
+            <option value="divisao" id="divisao">/</option>
+            <option value="multiplicacao" id="multiplicao">x</option>
+            <option value="subtracao" id="subtracao">-</option>
+        </select>
+    </div>
+
+    <div class="botaoSoma">
+        <button id="calcular">Calcular</button>
+    </div>
+
+    <div id="resultado"></div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
